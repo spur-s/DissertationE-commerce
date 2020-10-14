@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemhome"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/itemadd"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:title="Add Manpower" />
+    <item
+        android:id="@+id/itemus"
+        android:icon="@drawable/ic_about_us_24dp"
+        android:title="About Us" />
+    <item
+        android:id="@+id/itemsearch"
+        android:title="Search"
+        android:icon="@drawable/find"/>
+</menu>

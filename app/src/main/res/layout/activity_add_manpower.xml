@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="#0C0708"
+    android:layout_height="match_parent"
+    tools:context=".MainUI.AddManpowerActivity">
+    <TextView
+        android:textColor="#0C0708"
+        android:background="@drawable/edtxml"
+        style="@style/TextandLayout"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD PHOTO"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"/>
+    <ImageView
+        android:textColor="#0C0708"
+
+        android:background="@drawable/edtxml"
+        android:id="@+id/imgPhoto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/noimage"
+        android:scaleType="centerInside"
+        />
+    <TextView
+        android:textColor="#0C0708"
+
+        android:background="@drawable/edtxml"
+        style="@style/TextandLayout"
+        android:hint="Image Name"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:id="@+id/tvImagename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textColor="#0C0708"
+
+        android:id="@+id/btnConfirm"
+        android:background="@drawable/edtxml"
+        style="@style/TextandLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="VERIFY"/>
+
+    <EditText
+        android:textColor="#0C0708"
+
+        android:background="@drawable/edtxml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextandLayout"
+        android:id="@+id/itemName"
+        android:hint="Manpower Name"
+        android:text="Manpower Name"
+        />
+
+
+    <EditText
+        android:textColor="#0C0708"
+
+        android:background="@drawable/edtxml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemDescription"
+        style="@style/TextandLayout"
+        android:text="Location"
+        android:hint="Location"
+        />
+    <EditText
+
+        android:background="@drawable/edtxml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemprice"
+        style="@style/TextandLayout"
+        android:text="Price Per Hour"
+        android:hint="Price per Hour"
+        />
+
+    <Button
+        android:textColor="#0C0708"
+
+        android:id="@+id/btnAddItem"
+        style="@style/TextandLayout"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edtxml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD Manpower"/>
+
+</LinearLayout>
